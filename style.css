@@ -1,0 +1,25 @@
+﻿.圖表用標題粗體 {
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 0px 1px #C00;	
+	margin-top:25px;
+	margin-bottom: 25px;
+	color:black;
+}
+.左側圖片{
+	width:200px;
+	margin-top:50px;
+	position:relative;	
+}
+*{
+		color: #333;
+		padding: 0;
+		font-family:メイリオ;
+		font-size: medium;
+		line-height: 140%;
+		margin: 0;
+		caption-side: top;
+		margin-left: auto;
+		margin-right: auto;
+}

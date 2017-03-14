@@ -1,0 +1,108 @@
+﻿	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	a img {
+		border: none;
+	}
+	.coverflowAd {
+		width: 990px;
+		height: 260px;
+		position: relative;
+		overflow: hidden;
+		margin:0;
+	}
+	.coverflowAd div ul {
+		width: 9999px;
+		position: absolute;
+	}
+	.coverflowAd div ul li {
+		float: left;
+	}
+	.coverflowAd div ul li a {
+		display: block;
+		width: 190px;	/* 小圖的寬 */
+		height: 190px;	/* 小圖的高 */
+	}
+	.coverflowAd div ul li a img {
+		width: 190px;	/* 小圖的寬 */
+		height: 190px;	/* 小圖的高 */
+	}
+	.coverflowAd .coverflowAd_left {
+		position: absolute;
+		left: 0;
+		top: 25px;
+		width: 380px;	/* 小圖的寬 * 2 */
+		height: 190px;
+		overflow: hidden;
+	}
+	.coverflowAd .coverflowAd_right {
+		position: absolute;
+		right: 0;
+		top: 25px;
+		width: 380px;	/* 小圖的寬 * 2 */
+		height: 190px;
+		overflow: hidden;
+	}
+	.coverflowAd .coverflowAd_main {
+		position: absolute;
+		left: 310px;	/* 小圖的寬 * 2 */
+		top: 13px;
+		width: 370px;	/* 大圖的寬 * 1 */
+		height: 230px;
+		overflow: hidden;
+	}
+	.coverflowAd .coverflowAd_main ul li a img {
+		width: 370px;	/* 大圖的寬 */
+		height: 230px;	/* 大圖的寬 */
+	}
+	.coverflowAd .coverflowAd_main ul li a {
+		width: 370px;	/* 大圖的寬 */
+		height: 230px;	/* 大圖的寬 */
+	}
+	.coverflowAd .mask {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 990px;
+		height: 260px;
+		background: transparent url(../images/TopAD_C.png);	/* 遮罩圖片 */
+		z-index: 2;
+	}
+	.coverflowAd .fake {
+		z-index: 3;
+	}
+	.mask .coverflowAd_desc {
+		position:absolute;
+		color: #fff;
+		bottom: 0;
+		left: 310px;
+		width: 370px;
+		height: 0;
+		line-height:1.3em;
+		
+	}
+	.mask .coverflowAd_desc_bg {
+		position: absolute;
+		left: 0;
+		top: 120px;
+		width: 370px;
+		height: 120px;
+		background-color: #333;
+		
+	}
+	.mask .coverflowAd_desc_content {
+		position: absolute;
+		top: 120px;
+		padding: 10px;
+		color:white
+	}
+	
+	.mask .coverflowAd_desc_content  h4{padding:0; margin:0; font-size:18px; line-height:1.8em;color:orange}
+	
